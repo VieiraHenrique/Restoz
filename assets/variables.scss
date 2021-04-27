@@ -2,3 +2,9 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+$body-font-family: 'Baloo Tamma 2';
+$heading-font-family: 'Baloo Tamma 2';
+$font-size-root: 18px;
+
+@import '~vuetify/src/styles/styles.sass';
