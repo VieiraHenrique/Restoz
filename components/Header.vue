@@ -4,6 +4,7 @@
       v-model="drawer"
       app
       right
+      disable-resize-watcher
       class="hidden-md-and-up overflow-hidden"
     >
       <v-list class="mobile-menu">
@@ -22,7 +23,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-container grid-list-xs>
+    <v-container>
       <v-toolbar flat>
         <div class="d-flex align-center">
           <v-img src="/logo.png" width="50" class="mr-3"></v-img>
@@ -55,7 +56,7 @@ export default {
       menu: [
         { title: 'home', path: '/' },
 
-        { title: 'about', path: '/about' },
+        { title: 'about', path: '/' },
       ],
       drawer: false,
     }
@@ -65,6 +66,7 @@ export default {
 
 <style lang="scss">
 #Header {
+  overflow: hidden;
   .logo {
     letter-spacing: 2px;
     text-decoration: none;
