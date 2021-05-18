@@ -2,6 +2,8 @@
 
 ---
 
+Link to deployment : https://restoz-me-henriqueviei.vercel.app/
+
 API used : YELP Fusion
 
 ## Assignment :
